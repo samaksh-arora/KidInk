@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Archive from './pages/Archive'
 import Events from './pages/Events'
+import Footer from './components/Footer'
 
 function AnimatedRoutes() {
   const location = useLocation()
@@ -25,6 +26,7 @@ function App() {
       <div className="app">
         <Navbar />
         <AnimatedRoutes />
+        <Footer />
       </div>
     </Router>
   )

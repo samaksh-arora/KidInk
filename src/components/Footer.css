@@ -54,6 +54,7 @@
   border-radius: 50%;
   color: #ffffff;
   transition: all 0.3s ease;
+  font-size: 1.2rem;
 }
 
 .social-link:hover {
@@ -87,7 +88,7 @@
   color: #999999;
   text-decoration: none;
   font-size: 0.95rem;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
   display: inline-block;
 }
 
@@ -167,6 +168,11 @@
   gap: 0.5rem;
 }
 
+.contact-icon {
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
 /* Footer Bottom */
 .footer-bottom {
   padding-top: 2rem;
@@ -228,8 +234,8 @@
   transform: translateY(-3px);
 }
 
-.back-to-top span:first-child {
-  font-size: 1.2rem;
+.back-to-top svg {
+  font-size: 1.1rem;
 }
 
 /* Responsive Design */
@@ -296,10 +302,6 @@
   .social-link {
     width: 36px;
     height: 36px;
-  }
-
-  .social-link svg {
-    width: 20px;
-    height: 20px;
+    font-size: 1rem;
   }
 }

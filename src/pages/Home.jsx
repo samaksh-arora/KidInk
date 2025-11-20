@@ -33,8 +33,13 @@ function Home() {
       exit="exit"
       transition={{ duration: 0.5 }}
     >
-      {/* Hero Section */}
+      {/* Hero Section with Background */}
       <section className="hero-section">
+        <div className="hero-background">
+          <div className="hero-placeholder"></div>
+          <div className="hero-overlay"></div>
+        </div>
+        
         <div className="hero-content">
           <motion.h1 
             className="hero-title"
