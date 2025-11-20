@@ -30,9 +30,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #1a3a52 0%, #2d5266 25%, #1c4257 50%, #0f2537 100%);
+  background-image: url('/IMG_4710.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   animation: slowZoom 20s ease-in-out infinite alternate;
 }
+
 
 @keyframes slowZoom {
   0% {
